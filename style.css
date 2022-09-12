@@ -166,4 +166,11 @@ li {
   .card {
     width: 100%;
   }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
 }
