@@ -1,28 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: 'Montserrat', sans-serif;
   background-color: #FFFFFF;
   color: #232320;
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   line-height: 10px;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Slab', serif;
   color: #FD510C;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding: 5px;
   margin: 30px;
+  padding: 5px;
 }
 
 h2 {
-  color: #FD510C;
-  font-size: 17;
   font-family: 'Poppins', sans-serif;
+  color: #FD510C;
+  font-size: 22px;
 }
 
 a {
@@ -51,7 +55,7 @@ a {
   background-color: #FD510C;
   color: #FFFFFF;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid #232320;
   padding: 8px;
 }
 
@@ -64,10 +68,10 @@ a {
 }
 
 .horizontal-list {
+  font-size: 18px;
   display: inline;
   text-align: center;
-  padding: 0px 20px;
-  font-size: 20px;
+  padding: 0px 18px;
 }
 
 ul {
@@ -92,7 +96,6 @@ ul {
   border-radius: 12px;
   border: 2px solid #FD510C;
 }
-
 
 @media (max-width: 1280px) {
   /* For a screen < 960px, this CSS will be read */
