@@ -36,7 +36,7 @@ a:hover {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   border-radius: 5px;
   display: flex;
@@ -102,7 +102,7 @@ a:hover {
   font-size: 22px;
   display: inline;
   text-align: center;
-  padding: 0px 18px;
+  padding: 0px 0px 0px 18px;
   margin-left: 0px;
 }
 
@@ -194,6 +194,7 @@ li {
 
   .horizontal-list {
     line-height: 35px;
+    padding: 0px 0px 0px px;
   }
 
   .tech-stack {
