@@ -58,7 +58,7 @@ a:hover {
 }
 
 .bio-paragraph {
-  text-align: justify;
+  text-align: center;
   margin: 0px 30px;
   padding: 5px;
 }
@@ -161,6 +161,21 @@ li {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+    padding-left: 46px;
+    margin: 0px;
+  }
+
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 18px;
+    margin-left: 0px;
+  }
+
+  .project-info {
+    padding: 0px 18px;
+    margin-left: 0px;
   }
 
   .card {
