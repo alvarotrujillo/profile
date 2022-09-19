@@ -7,7 +7,6 @@ body {
   background-color: #06C0C0;
   color: #1c2e43;
   font-size: 15px;
-  line-height: 10px;
   margin: 0px;
 }
 
@@ -52,7 +51,7 @@ a:hover {
   background-color: #fffefe;
   padding: 20px;
   margin: 15px;
-  line-height: 20px;
+  line-height: 15px;
   border-radius: 5px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   float: none;
@@ -81,7 +80,7 @@ a:hover {
   color: #fffefe;
   border-radius: 5px;
   padding: 8px;
-  margin-left: 18px;
+  margin: 18px;
 }
 
 .nav-button:hover {
@@ -141,6 +140,7 @@ li {
   border-radius: 8px;
   border: 1px solid #e96247;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin-bottom: 12px;
 }
 
 #footer-end {
@@ -156,6 +156,17 @@ li {
 
   .bio-paragraph {
     text-align: left;
+  }
+
+  .bio-text {
+    line-height: normal;
+  }
+
+  .project-name {
+    text-align: left;
+    margin: 30px 15px;
+    padding-left: 20px;
+    text-decoration: underline;
   }
 }
 
@@ -200,6 +211,7 @@ li {
   }
 
   .bio-text {
+    line-height: 20px;
     text-align: left;
     margin: 0px 10px;
     padding: 10px;
