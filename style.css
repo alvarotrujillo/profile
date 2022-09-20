@@ -13,7 +13,7 @@ body {
 h1 {
   font-family: 'Roboto Slab', serif;
   color: #DC493A;
-  font-size: 26px;
+  font-size: 32px;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 h2 {
   font-family: 'Poppins', sans-serif;
   color: #DC493A;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 a {
@@ -161,7 +161,7 @@ li {
 
   .project-name {
     text-align: left;
-    margin: 30px 15px;
+    margin: 25px 15px;
     padding-left: 35px;
     text-decoration: underline;
   }
@@ -183,8 +183,21 @@ li {
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  #avatar {
+    margin-top: 18px;
+  }
+
   h1 {
     line-height: normal;
+    font-size: 22px;
+  }
+
+  h2 {
+  font-size: 20px;
+  }
+
+  p {
+    font-size: 13px;
   }
 
   .container {
@@ -211,7 +224,6 @@ li {
     line-height: 20px;
     text-align: left;
     margin: 0px 10px;
-    padding: 10px;
   }
 
   .horizontal-list {
