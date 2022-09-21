@@ -76,6 +76,7 @@ a:hover {
   color: #fffefe;
   border-radius: 12px;
   padding: 8px;
+  margin-bottom: 18px;
 }
 
 .project-button {
@@ -137,7 +138,7 @@ li {
   width: 200px;
 }
 
-.project-photo {
+.project-video {
   max-width: 90%;
   border-radius: 12px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
@@ -245,7 +246,7 @@ li {
     margin-right: 20px;
   }
 
-  .project-photo {
+  .project-video {
     max-width: 85%;
     border-radius: 12px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
