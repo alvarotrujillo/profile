@@ -16,6 +16,10 @@ h1 {
   font-size: 32px;
 }
 
+.highlight {
+  font-weight: bold;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
 }
@@ -51,7 +55,7 @@ a:hover {
 }
 
 .card {
-  background-color: #FFFAFF;
+  background-color: #eeeaee;
   padding: 20px;
   margin: 15px;
   line-height: 15px;
