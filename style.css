@@ -47,15 +47,16 @@ a:hover {
   flex-wrap: wrap;
 }
 
-#footer {
-  /* display: flex;
+/* #footer {
+  display: flex;
   flex-direction: column;
   margin: 0px;
-  padding: 0px; */
-}
+  padding: 0px;
+} */
 
 .card {
   background-color: #13302F;
+  width: 100%;
   padding: 20px;
   margin: 15px;
   line-height: 15px;
@@ -137,12 +138,18 @@ li {
   color: #06c0c0;
 }
 
+#freddiesFiets {
+  text-align: center;
+  max-width: fit-content;
+}
+
 #avatar {
   border-radius: 50%;
   width: 200px;
 }
 
 .project-video {
+  max-height: 120%;
   max-width: 90%;
   border-radius: 12px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
