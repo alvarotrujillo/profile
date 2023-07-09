@@ -8,41 +8,113 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200;500&display=swap" rel="stylesheet">
-    <title>Alvaro's Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Alvaro's Portfolio</title>
+    <link rel="icon" type="image/favicon" href="/images/favicon.ico">
   </head>
   <body>
-    <div class="container">
+    <div id="container-top" class="container">
       <div class="card">
-        <h1>Hola, I'm Alvaro 👋🏼</h1>
-        <img src="images/avatar.jpeg" alt="Polaroid Photo" id="avatar">
-        <h2>Programmer</h2>
-        <p>Welcome to my responsive profile! From contracts to smart contracts<br>
-          I am a legal professional in my programming journey,<br>
-          follow the ride here and in the below links.
-        </p>
-        <a href="https://www.youtube.com/watch?v=KxGRhd_iWuE&ab_channel=Ryuujin131" target="_blank" class="button-yellow">Click Here</a>
+        <div id="bio">
+          <img src="images/profilepic.png" alt="Photo of Alvaro" id="avatar">
+          <div class="bio-paragraph">
+            <div class="bio-text">
+              <h1>Hola, I'm Alvaro Trujillo</h1>
+              <h2>Data Migration Engineer</h2>
+              <p>With a background in <span class="highlight">law</span> and a passion for <span class="highlight">technology</span>, I have transitioned into a career as a <span class="highlight">programmer</span> and <span class="highlight">data migration engineer</span>. My proficiency in <span class="highlight">ETL tools</span>, <span class="highlight">data validation</span>, and <span class="highlight">data conversion</span> allows me to seamlessly integrate legal knowledge with technical skills, providing organizations with unique value.</p>
+              <p>I am dedicated to utilizing technology to drive business growth and efficiency, and am always eager to stay up-to-date with the latest advancements in the field. Let's connect and explore how I can help streamline your processes and drive innovation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="stack-header"><h3><strong>Tech Stack</strong></h3></div>
+          <ul class="tech-stack" style="padding-left: 0px;">
+            <li class="horizontal-list"><i alt="ruby"class="devicon devicon-ruby-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="rails"class="devicon devicon-rails-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="python"class="devicon devicon-python-plain colored"></i></li>
+            <li class="horizontal-list"><i alt="javascript"class="devicon devicon-javascript-plain colored"></i></li>
+            <li class="horizontal-list"><i alt="nodejs" class="devicon devicon-nodejs-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="mongodb"class="devicon devicon-mongodb-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="postgresql"class="devicon devicon-postgresql-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="html"class="devicon devicon-html5-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="css"class="devicon devicon-css3-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="heroku"class="devicon devicon-heroku-plain-wordmark colored"></i></li>
+            <li class="horizontal-list"><i alt="bootstrap"class="devicon devicon-bootstrap-plain-wordmark colored"></i></li>
+          </ul>
+          <br>
+          <a href="#footer-end" class="nav-button">Get in touch</a>
       </div>
       <div class="card">
-          <h2>Contact Links</h2>
-            <ul>
-              <li>
-                <a href="https://github.com/alvarotrujillo" target="_blank">
-                  <i class="fa-brands fa-github social"></i>
-                </a>
-               </li>
-              <li>
-                <a href="https://www.linkedin.com/in/alvaro-trujillo/" target="_blank">
-                  <i class="fab fa-linkedin-in social"></i>
-                 </a>
-               </li>
-               <li>
-                <a href="https://twitter.com/TrujiCodes" target="_blank">
-                  <i class="fab fa-twitter social"></i>
-                </a>
-               </li>
-             </ul>
+        <h2>Current Work</h2>
+          <h3 class="project-name">Demo Migration Documentum to SharePoint Online</h3>
+          <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+            <iframe src="https://www.loom.com/embed/5cbd5e991cb249328b71a3da85393124?sid=89765648-4cd1-406a-b1ec-807ad6f966c7" alt="Video Demo Migrating Documentum to SPO" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          </div>
+      </div>
+      <div class="card">
+        <h2>Past Projects</h2>
+          <h3 class="project-name"><a href="https://freddies-fiets.herokuapp.com/" target="_blank">Freddie's Fiets</a></h3>
+            <video src="images/FreddiesFietsDemo.mp4" alt="demo video of Freddie's Fiets" class="project-video" controls>
+              Your browser does not support video.
+            </video>
+            <p>
+              <a href="https://github.com/alvarotrujillo/freddies-fiets" class="project-button" target="_blank">Code <i class="fa-brands fa-github"></i></a>
+              <a href="https://freddies-fiets.herokuapp.com/" class="project-button" target="_blank">Website <i class="fa-solid fa-bicycle"></i></a>
+            </p>
+          <br>
+            <ul class="project-info">
+              <li><p>A vibrant web platform designed for bike enthusiasts to rent and lease bicycles with ease</p></li>
+              <li><p>Inspired by the legendary musician Freddie Mercury and the Dutch fiets culture</p></li>
+              <li><p>Features an intuitive MVC-pattern design that enhances user experience</p></li>
+              <li><p>Utilizes cookies to enable users to view their past rental and lease history</p></li>
+              <li><p>Extensive PostgreSQL database with authentic data obtained through web scraping</p></li>
+              <li><p>Offers a user-friendly and comprehensive platform to meet all your bicycle rental and leasing needs</p></li>
+            </ul>
+            <br>
+          <h3 class="project-name"><a href="http://www.homebarapp.eu/" target="_blank">HomeBar</a></h3>
+          <video src="images/HomeBarVideo.mp4" alt="demo video of HomeBar" class="project-video" controls>
+            Your browser does not support video.
+          </video>
+            <p>
+              <a href="https://github.com/lcalazansl/homebarapp" class="project-button" target="_blank">Code <i class="fa-brands fa-github"></i></a>
+              <a href="http://www.homebarapp.eu/" class="project-button" target="_blank">Website <i class="fa-solid fa-martini-glass-citrus"></i></a>
+            </p>
+          <br>
+          <ul class="project-info">
+            <li><p>A dynamic web application hosted on Heroku offering an innovative solution for discovering new cocktails</p></li>
+            <li><p>Generates a list of cocktail recipes based on the ingredients you have on hand</p></li>
+            <li><p>Provides precise measurements and methods for each cocktail through an intuitive modal display</p></li>
+            <li><p>Offers a user-friendly and innovative solution to discover and enjoy cocktails in the comfort of your home</p></li>
+          </ul>
+          <br>
+        <div id="footer">
+          <h2>Reach Out</h2>
+          <div class="stack-header"><h5>Let's make something special, get in touch!</h5></div>
+          <ul id="contact-links">
+            <li class="horizontal-list">
+              <a href="https://github.com/alvarotrujillo" target="_blank">
+                <i class="fa-brands fa-github social"></i>
+              </a>
+            </li>
+            <li class="horizontal-list">
+              <a href="https://www.linkedin.com/in/alvaro-trujillo/" target="_blank">
+                <i class="fab fa-linkedin-in social"></i>
+              </a>
+            </li>
+            <li class="horizontal-list">
+              <a href="https://twitter.com/TrujiCodes" target="_blank">
+                <i class="fab fa-twitter social"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+        <br>
+        <a href="#container-top" id="footer-end" class="nav-button">Back to top</a>
+      </div>
     </div>
   </body>
 </html>
